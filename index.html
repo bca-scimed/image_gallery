@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Gallery website</title>
+
+    <!-- CSS links -->
+    <!-- Bootstrap first -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- font-family: 'Playfair Display', serif; -->
+    <!-- custom css -->
+    <link rel="stylesheet" href="/gallery.css">
+
+    <!-- font awesome link below -->
+    <script src="https://kit.fontawesome.com/3765a85e7d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><i class="far fa-images"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">About</a> <!-- insert link -->
+                <a class="nav-item nav-link" href="#">Contact</a> <!-- insert link -->
+            </div>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#">Sign Up</a> <!-- insert link -->
+                <a class="nav-item nav-link" href="#">Login</a> <!-- insert link -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4"><i class="fas fa-camera-retro"></i> Welcome to The Image Gallery</h1>
+        </div>
+
+        <!-- image gallery -->
+
+        <div class="row">
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by Adam Vradenburg on Unsplash Medium -->
+                <img src="/images/clear_lake.jpg" class="img-thumbnail border border-dark" alt="clear lake">
+                <p>Photo by <a href="https://unsplash.com/@vradenburg">Adam Vradenburg</a></p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by Nick Karvounis on Unsplash Medium -->
+                <img src="/images/copenhagen.jpg" class="img-thumbnail border border-dark" alt="Copenhagen">
+                <p>Photo by <a href="https://unsplash.com/@nickkarvounis">Nick Karvounis</a></p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by Steven Cordes on Unsplash Medium -->
+                <img src="/images/montana.jpg" class="img-thumbnail border border-dark" alt="Montana">
+                <p>Photo by <a href="https://unsplash.com/@steven3466">Steven Cordes</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by USGS on Unsplash Medium -->
+                <img src="/images/bee.jpg" class="img-thumbnail border border-dark" alt="blackwater falls">
+                <p>Photo by <a href="https://unsplash.com/@usgs">USGS</a></p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by Kevin Benkenstein on Unsplash Medium -->
+                <img src="/images/mountain_clouds.jpg" class="img-thumbnail border border-dark" alt="Montana">
+                <p>Photo by <a href="https://unsplash.com/@benky">Kevin Benkenstein</a></p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by oakie on Unsplash Medium -->
+                <img src="/images/seattle.jpg" class="img-thumbnail border border-dark" alt="Montana">
+                <p>Photo by <a href="https://unsplash.com/@jetcityninja">oakie</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by Colin Moldenhauer on Unsplash Medium -->
+                <img src="/images/day_lake.jpg" class="img-thumbnail border border-dark" alt="Montana">
+                <p>Photo by <a href="https://unsplash.com/@colin_moldenhauer">Colin Moldenhauer</a></p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by Kevin Wolf on Unsplash Medium -->
+                <img src="/images/bicycle.jpg" class="img-thumbnail border border-dark" alt="clear lake">
+                <p>Photo by <a href="https://unsplash.com/@kwlf">Kevin Wolf</a></p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <!-- Photo by Luca Bravo on Unsplash Medium -->
+                <img src="/images/brown_house.jpg" class="img-thumbnail border border-dark" alt="Montana">
+                <p>Photo by <a href="https://unsplash.com/@lucabravo">Luca Bravo</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Required JS for Bootstrap below -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
