@@ -10,4 +10,5 @@ h1, p {
 .col-lg-4 img {
     width: 100%;
     height: 85%;
+    position: relative;
 }
