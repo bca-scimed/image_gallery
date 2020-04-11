@@ -7,3 +7,7 @@ Includes:
 * Font Awesome icons and Google Fonts
 
 Anyone should feel free to use this template as they choose
+
+## Note on 4/11/2020:
+tried setting this image gallery up on github pages but css styling and fonts are acting weird compared to local dev environment
+
