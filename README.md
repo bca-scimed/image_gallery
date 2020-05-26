@@ -8,6 +8,5 @@ Includes:
 
 Anyone should feel free to use this template as they choose
 
-## Note on 4/11/2020:
-Tried setting this image gallery up on github pages but css styling and fonts are acting weird compared to local dev environment
+
 
